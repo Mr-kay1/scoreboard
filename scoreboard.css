@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    text-align: center;
+    background-color: rgb(15, 15, 59);
+    color: whitesmoke;
+  
+}
+.container{
+    
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+}
+.home{
+    font-size: 50px;
+}
+h2{
+    background-color: black;
+    color: red;
+    text-align: center;
+    margin-top: 1.1rem;
+    font-size: 60px;
+}
+button{
+    margin-top: 1.1rem;
+    font-size: 30px;
+}
+#new_count{
+    margin-top: 5rem;
+}

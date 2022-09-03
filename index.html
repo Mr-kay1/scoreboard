@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="../scoreboard/scoreboard.css">
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <div>
+                <h3 class="home">HOME</h3>
+                <h2 id="home-el">0</h2>
+                <button id="plusone" onclick="home_one()">+1</button>
+                <button id="plustwo" onclick="home_two()">+2</button>
+                <button id="plusthree" onclick="home_three()">+3</button>
+            </div>
+            <div>
+                <h3 class="home">GUEST</h3>
+                <h2 id="guest-el">0</h2>
+                <button id="addone" onclick="guest_one()">+1</button>
+                <button id="addtwo" onclick="guest_two()">+2</button>
+                <button id="addthree" onclick="guest_three()">+3</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../scoreboard/scoreboard.js"></script>
+</body>
+</html>
